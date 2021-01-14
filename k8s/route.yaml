@@ -6,7 +6,7 @@ metadata:
   name: irest
 spec:
   port:
-    targetPort: 8080-tcp
+    targetPort: 9080-tcp
   to:
     kind: Service
     name: irest

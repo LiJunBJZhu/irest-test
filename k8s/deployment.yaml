@@ -19,7 +19,7 @@ spec:
           imagePullPolicy: Always
           name: irest
           ports:
-            - containerPort: 8080
+            - containerPort: 9080
               protocol: TCP
             - containerPort: 9090
               protocol: TCP
